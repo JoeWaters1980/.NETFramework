@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clubsClasses", "clubsClasses.csproj", "{4F1DB44B-9D01-42FD-9F56-A8EE65154B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clubs-MVC", "..\Clubs-MVC\Clubs-MVC.csproj", "{BF8FF5E8-7539-486F-AE89-2CB91086E056}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F1DB44B-9D01-42FD-9F56-A8EE65154B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1DB44B-9D01-42FD-9F56-A8EE65154B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1DB44B-9D01-42FD-9F56-A8EE65154B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1DB44B-9D01-42FD-9F56-A8EE65154B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8FF5E8-7539-486F-AE89-2CB91086E056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8FF5E8-7539-486F-AE89-2CB91086E056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8FF5E8-7539-486F-AE89-2CB91086E056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8FF5E8-7539-486F-AE89-2CB91086E056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E9D4A0B-ED2C-4023-8F0D-B6D29042193F}
+	EndGlobalSection
+EndGlobal
