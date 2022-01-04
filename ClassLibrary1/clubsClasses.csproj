@@ -52,12 +52,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Club Models\Club.cs" />
+    <Compile Include="Club Models\ClubEvent.cs" />
+    <Compile Include="Club Models\EventAttendnace.cs" />
+    <Compile Include="Club Models\Member.cs" />
+    <Compile Include="ClubContext.cs" />
+    <Compile Include="Migrations\202201041449340_Club Models added.cs" />
+    <Compile Include="Migrations\202201041449340_Club Models added.designer.cs">
+      <DependentUpon>202201041449340_Club Models added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201041454191_correction.cs" />
+    <Compile Include="Migrations\202201041454191_correction.designer.cs">
+      <DependentUpon>202201041454191_correction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201041514125_seeding newly added data.cs" />
+    <Compile Include="Migrations\202201041514125_seeding newly added data.designer.cs">
+      <DependentUpon>202201041514125_seeding newly added data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202201041449340_Club Models added.resx">
+      <DependentUpon>202201041449340_Club Models added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201041454191_correction.resx">
+      <DependentUpon>202201041454191_correction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201041514125_seeding newly added data.resx">
+      <DependentUpon>202201041514125_seeding newly added data.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

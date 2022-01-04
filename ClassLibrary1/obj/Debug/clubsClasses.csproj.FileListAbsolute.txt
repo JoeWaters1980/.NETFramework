@@ -10,3 +10,7 @@ D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\cl
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\clubsClasses.csproj.CopyComplete
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.ClubModelsadded.resources
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\clubsClasses.csproj.GenerateResource.cache
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.correction.resources
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.seedingnewlyaddeddata.resources
