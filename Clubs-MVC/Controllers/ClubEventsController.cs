@@ -11,112 +11,112 @@ using ClassLibrary1.Club_Models;
 
 namespace Clubs_MVC.Controllers
 {
-    public class MembersController : Controller
+    public class ClubEventsController : Controller
     {
         private ClubContext db = new ClubContext();
 
-        // GET: Members
+        // GET: ClubEvents
         public ActionResult Index()
         {
-            var members = db.Members.Include(m => m.MyClub);
-            return View(members.ToList());
+            var clubEvents = db.ClubEvents.Include(c => c.AssociatedClub);
+            return View(clubEvents.ToList());
         }
 
-        // GET: Members/Details/5
+        // GET: ClubEvents/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
-            if (member == null)
+            ClubEvent clubEvent = db.ClubEvents.Find(id);
+            if (clubEvent == null)
             {
                 return HttpNotFound();
             }
-            return View(member);
+            return View(clubEvent);
         }
 
-        // GET: Members/Create
+        // GET: ClubEvents/Create
         public ActionResult Create()
         {
-            ViewBag.AssociatedClub = new SelectList(db.Clubs, "ClubId", "ClubName");
+            ViewBag.ClubId = new SelectList(db.Clubs, "ClubId", "ClubName");
             return View();
         }
 
-        // POST: Members/Create
+        // POST: ClubEvents/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "MemberID,AssociatedClub,StudentID,Approved")] Member member)
+        public ActionResult Create([Bind(Include = "EventID,Venue,Location,ClubId,StartDateTime,EndDateTime")] ClubEvent clubEvent)
         {
             if (ModelState.IsValid)
             {
-                db.Members.Add(member);
+                db.ClubEvents.Add(clubEvent);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.AssociatedClub = new SelectList(db.Clubs, "ClubId", "ClubName", member.AssociatedClub);
-            return View(member);
+            ViewBag.ClubId = new SelectList(db.Clubs, "ClubId", "ClubName", clubEvent.ClubId);
+            return View(clubEvent);
         }
 
-        // GET: Members/Edit/5
+        // GET: ClubEvents/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
-            if (member == null)
+            ClubEvent clubEvent = db.ClubEvents.Find(id);
+            if (clubEvent == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.AssociatedClub = new SelectList(db.Clubs, "ClubId", "ClubName", member.AssociatedClub);
-            return View(member);
+            ViewBag.ClubId = new SelectList(db.Clubs, "ClubId", "ClubName", clubEvent.ClubId);
+            return View(clubEvent);
         }
 
-        // POST: Members/Edit/5
+        // POST: ClubEvents/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "MemberID,AssociatedClub,StudentID,Approved")] Member member)
+        public ActionResult Edit([Bind(Include = "EventID,Venue,Location,ClubId,StartDateTime,EndDateTime")] ClubEvent clubEvent)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(member).State = EntityState.Modified;
+                db.Entry(clubEvent).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.AssociatedClub = new SelectList(db.Clubs, "ClubId", "ClubName", member.AssociatedClub);
-            return View(member);
+            ViewBag.ClubId = new SelectList(db.Clubs, "ClubId", "ClubName", clubEvent.ClubId);
+            return View(clubEvent);
         }
 
-        // GET: Members/Delete/5
+        // GET: ClubEvents/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
-            if (member == null)
+            ClubEvent clubEvent = db.ClubEvents.Find(id);
+            if (clubEvent == null)
             {
                 return HttpNotFound();
             }
-            return View(member);
+            return View(clubEvent);
         }
 
-        // POST: Members/Delete/5
+        // POST: ClubEvents/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Member member = db.Members.Find(id);
-            db.Members.Remove(member);
+            ClubEvent clubEvent = db.ClubEvents.Find(id);
+            db.ClubEvents.Remove(clubEvent);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
