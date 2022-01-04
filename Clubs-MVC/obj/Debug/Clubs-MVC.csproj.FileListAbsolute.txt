@@ -109,3 +109,5 @@ D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs-
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs-MVC.csproj.CopyComplete
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs-MVC.dll
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs-MVC.pdb
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs_MVC.Migrations.InitialAppuserdatabasesetup.resources
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Clubs-MVC\obj\Debug\Clubs-MVC.csproj.GenerateResource.cache

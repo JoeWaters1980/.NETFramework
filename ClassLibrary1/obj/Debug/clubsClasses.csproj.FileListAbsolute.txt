@@ -5,8 +5,8 @@ D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\Cl
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.dll
-D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.xml
-D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\clubsClasses.csproj.AssemblyReference.cache
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\obj\Debug\clubsClasses.csproj.CopyComplete
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
