@@ -109,3 +109,5 @@ D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MV
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MVC-Bank.csproj.CopyComplete
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MVC-Bank.dll
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MVC-Bank.pdb
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MVC_Bank.Migrations.InitialMigration.resources
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\MVC-Bank\obj\Debug\MVC-Bank.csproj.GenerateResource.cache
