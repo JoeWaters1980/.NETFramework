@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Solution_Banking_.Models
@@ -25,7 +20,7 @@ namespace Solution_Banking_.Models
     }
     public enum TransactionType
     {
-        Lodgement, 
+        Lodgement,
         Withdrawl
     }
 }

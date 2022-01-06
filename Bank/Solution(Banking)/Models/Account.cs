@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Solution_Banking_.Models
@@ -13,7 +8,7 @@ namespace Solution_Banking_.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AcccountID { get; set; }
+        public int AccountID { get; set; }
         public string AccountName { get; set; }
         [DataType(DataType.Date)]
         public DataType InceptionDate { get; set; }

@@ -10,3 +10,6 @@ D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution(Banking).csproj.CopyComplete
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution(Banking).dll
 D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution(Banking).pdb
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution_Banking_.Migrations.InitalMigration.resources
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution(Banking).csproj.GenerateResource.cache
+D:\Collage Work\3rd year repeat\RAD\301\.NetFramework\Bank\Solution(Banking)\obj\Debug\Solution_Banking_.Migrations.Initalseed.resources
