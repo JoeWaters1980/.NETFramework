@@ -9,6 +9,9 @@ namespace ClubDomainClasses
         public DbSet<ClubEvent> ClubEvents { get; set; }
         public DbSet<Member> Members { get; set; }
         public DbSet<EventAttendance> EventAttendances { get; set; }
+        public DbSet <Course> Courses { get; set; }
+        public DbSet<Student> Students { get; set; }
+
         public ClubContext()
             : base("DefaultConnection")
         {

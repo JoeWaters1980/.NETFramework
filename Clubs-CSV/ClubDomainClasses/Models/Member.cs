@@ -14,5 +14,8 @@ namespace ClubDomainClasses.Models
         public bool Approved { get; set; }
         [ForeignKey("AssociatedClub")]
         public virtual Club MyClub { get; set; }
+        [ForeignKey("StudentID")]
+        public virtual Student StudentMember { get; set; }
+
     }
 }
